@@ -16,7 +16,21 @@ public class MainActivity extends AppCompatActivity {
     Tris tris1;
     final int x=-2;
     final int o=-3;
+   
+     int facebook=R.drawable.phone;
+    final int youtube=R.drawable.bici;
 
+    final int primoId=R.id.primo;
+    final int secondoId=R.id.secondo;
+    final  int terzoId=R.id.terzo;
+    final int quartoId=R.id.quarto;
+    final int quintoId=R.id.quinto;
+    final  int sestoId=R.id.sesto;
+    final  int settimoId=R.id.settimo;
+    final int ottavoId=R.id.ottavo;
+    final  int nonoId=R.id.nono;
+
+    final int [] idImmagini={primoId,secondoId,terzoId,quartoId,quintoId,sestoId,settimoId,ottavoId,nonoId};
 
 
     @Override
@@ -72,19 +86,5 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("player",valore);
         startActivity(intent);
     }
-    /**Variabili d'appoggio**/
-    final int facebook=R.drawable.phone;
-    final int youtube=R.drawable.bici;
 
-    final int primoId=R.id.primo;
-    final int secondoId=R.id.secondo;
-    final  int terzoId=R.id.terzo;
-    final int quartoId=R.id.quarto;
-    final int quintoId=R.id.quinto;
-    final  int sestoId=R.id.sesto;
-    final  int settimoId=R.id.settimo;
-    final int ottavoId=R.id.ottavo;
-    final  int nonoId=R.id.nono;
-    /**array per ottimizzare le prestazioni**/
-    final int [] idImmagini={primoId,secondoId,terzoId,quartoId,quintoId,sestoId,settimoId,ottavoId,nonoId};
 }
