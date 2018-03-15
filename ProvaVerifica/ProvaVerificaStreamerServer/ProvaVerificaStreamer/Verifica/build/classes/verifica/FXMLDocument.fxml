@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="366.0" prefWidth="320" style="-fx-background-color: trasparent;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="verifica.FXMLDocumentController">
+    <children>
+      <AnchorPane prefHeight="366.0" prefWidth="320.0" style="-fx-background-color: #3D4956;">
+         <children>
+              <Button layoutX="38.0" layoutY="292.0" onAction="#start" prefHeight="66.0" prefWidth="104.0" text="Ricevi" />
+              <Button layoutX="179.0" layoutY="292.0" onAction="#invia" prefHeight="66.0" prefWidth="104.0" text="Invia" />
+            <TextField fx:id="fieldDiRecezione" editable="false" layoutX="38.0" layoutY="75.0" prefHeight="161.0" prefWidth="245.0" promptText="Qua si ricevono i messaggi" />
+            <TextArea fx:id="fieldDiTrasmissione" layoutX="38.0" layoutY="244.0" prefHeight="40.0" prefWidth="245.0" promptText="Qua si inviano i messaggi" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="14.0" text="Verifica David Ambros" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
