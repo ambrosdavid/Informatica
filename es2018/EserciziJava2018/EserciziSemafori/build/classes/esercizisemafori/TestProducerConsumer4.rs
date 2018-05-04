@@ -1,0 +1,4 @@
+esercizisemafori.TestProducerConsumer4
+esercizisemafori.EserciziSemafori
+esercizisemafori.Consumer
+esercizisemafori.Producer

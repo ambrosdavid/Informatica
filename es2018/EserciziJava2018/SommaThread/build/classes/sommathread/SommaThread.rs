@@ -1,0 +1,4 @@
+sommathread.SommaThread
+sommathread.Numero
+sommathread.SommeRandom$Risorsa
+sommathread.SommeRandom
