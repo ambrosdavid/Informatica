@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="div1" style="text-align: center">
+
+            • cognome e nome <br>
+            <input type="text"  id="cognomeNome" maxlength="50" onkeyup="checkNomeCognome()"><br>
+            • sesso <br>
+            <input type="radio" name="genere" value="male" checked> Maschio<br>
+            <input type="radio" name="genere" value="female"> Femmina<br>
+            • ateneo <br>
+            <select id="universita">
+                <option></option>
+                <option>Universita1</option>
+                <option>Universita2</option>
+                <option>Universita3</option>
+                <option>Universita4</option>
+                <option>Universita5</option>
+                <option>Universita6</option>
+                <option>Universita7</option>
+                <option>Universita8</option>
+                <option>Universita9</option>
+            </select><br>
+            • CAP <br> 
+            <input type="text" id="cap" onkeyup="checkCap()" ><br>
+            • studente e/o lavoratore  <br>
+            <input type="checkbox" id="studente">Studente<br>
+            <input type="checkbox" id="lavoratore">Lavoratore<br>
+            • descrizione del lavoro svolto <br>
+            <textarea rows="3"  cols="30" id="descrizione" maxlength="80"></textarea><br>
+            • invio 
+            <input type="button" class="button" id="invio" onClick="invia()" value="invio">
+            <br>
+            • reset 
+            <input type="button"  class="button" id="reset" onClick="reset()"  value="reset">
+            <br>
+        </div>
+
+        <script>
+            getVariabili();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+                <link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="javascript.js"></script>
+	</head>
+	<body >
+
+            <div class="div1">
+			cognome <br>
+                        <input type="text" id="cognome"  maxlength="40"><br>
+			nome <br>
+			<input type="text" id="nome" maxlength="30"><br>
+			matricola <br>
+			<input type="text" id="matricola" maxlength="12"><br>
+			regione di residenza <br>
+			<select id="regione">
+				<option></option>
+				<option>Abruzzo</option>
+				<option>Basilicata</option>
+				<option>Calabria</option>
+				<option>Campania</option>
+				<option>Emilia-Romagna</option>
+				<option>Friuli-Venezia Giulia</option>
+				<option>Lazio</option>
+				<option>Liguria</option>
+				<option>Lombardia</option>
+				<option>Marche</option>
+				<option>Molise</option>
+				<option>Piemonte</option>
+				<option>Puglia</option>
+				<option>Sardegna</option>
+				<option>Sicilia</option>
+				<option>Toscana</option>
+				<option>Trentino-Alto Adige</option>
+				<option>Umbria</option>
+				<option>Valle d'Aosta</option>
+				<option>Veneto</option>
+			</select>
+			<br>
+			email <br>
+			<input type="text" id="email" maxlength="30"><br>
+			telefono <br>
+			<input type="text" id="telefono" maxlength="15"><br>
+			richieste particolari <br>
+			<textarea rows="12" cols="60"></textarea><br>
+			invio <br>
+			<input type="button" onclick="invia()" class="button" id="invio" value="invio">
+			<br>
+			reset <br>
+                        <input type="button" class="button" id="reset" onclick="reset()"  value="reset">
+			<br>
+
+		</div>
+		<script>
+			getVariabili();
+		</script>
+	</body>
+</html>

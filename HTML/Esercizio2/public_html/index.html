@@ -1,0 +1,84 @@
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Esercizio 1 - Scheda Lavoro 07</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="a">
+            <h1>Esercizio 2</h1>
+            <h2>Scheda lavoro 07</h2>
+            <form>
+                <h4>Inserisci i seguenti dati:</h4>
+                <br>
+
+                <b>Inserisci Nome e Cognome:</b>
+                <br>
+                <input id="nome_cognome" type="text" maxlength="50" placeholder="Inserisci nome e cognome..." onkeyup="checkNomeCognome()">
+                <br>
+
+                <b>Inserisci sesso:</b><br>
+                <input type="radio" name="sesso" value="Maschio">Maschio
+                <input type="radio" name="sesso" value="Femmina">Femmina
+                <br>
+
+                <b>Ateneo:</b>
+                <br>
+                <select id="ateneo">
+                    <option></option>
+                    <option>Abruzzo</option>
+                    <option>Basilicata</option>
+                    <option>Calabria</option>
+                    <option>Campania</option>
+                    <option>Emilia-Romagna</option>
+                    <option>Friuli-Venezia Giulia</option>
+                    <option>Lazio</option>
+                    <option>Liguria</option>
+                    <option>Lombardia</option>
+                    <option>Marche</option>
+                    <option>Molise</option>
+                    <option>Piemonte</option>
+                    <option>Puglia</option>
+                    <option>Sardegna</option>
+                    <option>Sicilia</option>
+                    <option>Toscana</option>
+                    <option>Trentino-Alto Adige</option>
+                    <option>Umbria</option>
+                    <option>Valle d'Aosta</option>
+                    <option>Veneto</option>
+                </select>
+                <br>
+
+                <b>Inserisci CAP:</b>
+                <br>
+                <input id="cap" type="number" min="0" max="99999" placeholder="Inserisci CAP..." onkeyup="checkCap()">
+                <br>
+
+                <b>Inserisci mansione:</b><br>
+                <input type="checkbox" name="mansione" value="Studente">Studente
+                <br>
+                <input type="checkbox" name="mansione" value="Lavoratore">Lavoratore
+                <br>
+
+                <b>Descrizione lavoro svolto:</b>
+                <br>
+                <textarea id="richieste" maxlength="80"></textarea>
+                <br>
+
+                <div id="buttons">
+                    <input type="button" onclick="invia()" value="Invia">
+                    <input type="button" onclick="reset()" value="Reset">
+                    <br>
+                </div>
+            </form>
+            <script>
+                getView();
+            </script>
+        </div>
+    </body>
+</html>
