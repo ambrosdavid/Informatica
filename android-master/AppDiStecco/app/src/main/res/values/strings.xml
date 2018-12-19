@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppDiStecco</string>
+    <string name="mailCorrente">MAIL NON TROVATA</string>
+    <string name="nuovaMail">inserire una nuova mail</string>
+    <string name="save">salva le modifiche</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

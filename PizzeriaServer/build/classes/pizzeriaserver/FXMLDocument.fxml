@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="705.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pizzeriaserver.FXMLDocumentController">
+    <children>
+      <JFXTextArea fx:id="finestra" editable="false" focusColor="#b26969" layoutX="24.0" layoutY="31.0" prefHeight="292.0" prefWidth="657.0" unFocusColor="BLACK" />
+    </children>
+</AnchorPane>

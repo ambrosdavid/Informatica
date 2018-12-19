@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="home">
+    </item>
+
+    <item android:id="@+id/coupon"
+        android:title="coupon">
+    </item>
+
+    <item android:id="@+id/info"
+        android:title="info">
+    </item>
+    
+    <item android:id="@+id/mail"
+        android:title="mail">
+    </item>
+
+
+</menu>

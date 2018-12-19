@@ -1,0 +1,4 @@
+mangiariso.TestPesciolini
+mangiariso.MangiaRiso
+mangiariso.Tavolo
+mangiariso.Filosofo
